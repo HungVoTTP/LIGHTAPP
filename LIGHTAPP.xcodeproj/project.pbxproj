@@ -13,6 +13,8 @@
 		227F447A2C1EA217005962CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227F44782C1EA217005962CA /* Main.storyboard */; };
 		227F447C2C1EA21B005962CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227F447B2C1EA21B005962CA /* Assets.xcassets */; };
 		227F447F2C1EA21B005962CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227F447D2C1EA21B005962CA /* LaunchScreen.storyboard */; };
+		227F44872C1EA27D005962CA /* VCScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F44862C1EA27D005962CA /* VCScreen1.swift */; };
+		227F44892C1EA340005962CA /* VCScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F44882C1EA340005962CA /* VCScreen2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		227F447B2C1EA21B005962CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		227F447E2C1EA21B005962CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		227F44802C1EA21B005962CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227F44862C1EA27D005962CA /* VCScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCScreen1.swift; sourceTree = "<group>"; };
+		227F44882C1EA340005962CA /* VCScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCScreen2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				227F447B2C1EA21B005962CA /* Assets.xcassets */,
 				227F447D2C1EA21B005962CA /* LaunchScreen.storyboard */,
 				227F44802C1EA21B005962CA /* Info.plist */,
+				227F44862C1EA27D005962CA /* VCScreen1.swift */,
+				227F44882C1EA340005962CA /* VCScreen2.swift */,
 			);
 			path = LIGHTAPP;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				227F44772C1EA217005962CA /* ViewController.swift in Sources */,
+				227F44872C1EA27D005962CA /* VCScreen1.swift in Sources */,
 				227F44732C1EA217005962CA /* AppDelegate.swift in Sources */,
 				227F44752C1EA217005962CA /* SceneDelegate.swift in Sources */,
+				227F44892C1EA340005962CA /* VCScreen2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
